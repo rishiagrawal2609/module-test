@@ -12,5 +12,5 @@ provider "azurerm" {
 }
 
 data "azurerm_resources" "example" {
-  resource_group_name = var.resource_group_name
+  resource_group_name = "seshan"
 }
